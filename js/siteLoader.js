@@ -1,9 +1,10 @@
 // Links to the different sub-sites of the page
 // ['Name of the Link', 'link adress']
 var siteLinks = [
-	['Non Clickable Menu Point',''],
 	['Start', 'content/index.html'],
+	['Über mich', 'content/ich.html', 1000, 750],
 	['Lebenslauf', 'content/lebenslauf.html', 1000, 750],
+	['Meine Arbeit im Labor', 'content/labor.html', 1000, 750],
 	['Hobbies und Projekte',''],
 	['DIY DJ Controller', 'content/index.html', 900, 700],
 	['Crazy Records Label','https://www.crazyrec.de', 1200, 700],
