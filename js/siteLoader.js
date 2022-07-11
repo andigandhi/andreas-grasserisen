@@ -1,12 +1,14 @@
 // Links to the different sub-sites of the page
 // ['Name of the Link', 'link adress']
 var siteLinks = [
-	['Start', 'content/index.html'],
-	['Über mich', 'content/ich.html', 1000, 750],
+	['Start', 'content/ich.html'],
+	//['Über mich', 'content/ich.html', 1000, 750],
+	['Lebenslauf und Studium',''],
 	['Lebenslauf', 'content/lebenslauf.html', 1000, 750],
-	['Meine Arbeit im Labor', 'content/labor.html', 1000, 750],
+	['Mein Physik-Studium', 'content/studium.html', 900, 450],
+	['Meine Arbeit im Labor', 'content/labor.html', 900, 450],
 	['Hobbies und Projekte',''],
-	['DIY DJ Controller', 'content/index.html', 900, 700],
+	//['DIY DJ Controller', 'content/index.html', 900, 700],
 	['Crazy Records Label','https://www.crazyrec.de', 1200, 700],
 	['Impressum und Datenschutz',''],
 	['Impressum', 'content/impressum.html'],
@@ -17,7 +19,8 @@ var siteLinks = [
 // The Icons on the desktop, images have to be deposited in /img/ico/
 // ['Name / Name.png','link']
 var icons = [
-	['TestIcon', 'content/index.html'],
+	['Studium', 'content/studium.html'],
+	['Labor', 'content/labor.html'],
 ]
 
 
@@ -208,4 +211,4 @@ createIcons();
 // Builds the menu
 build_menu();
 // Opens first Window
-fillWindow(1);
+fillWindow(0);
