@@ -8,7 +8,7 @@ var siteLinks = [
 	['Mein Physik-Studium', 'content/studium.html', 900, 450],
 	['Meine Arbeit im Labor', 'content/labor.html', 900, 450],
 	['Hobbies und Projekte',''],
-	//['DIY DJ Controller', 'content/index.html', 900, 700],
+	//['DIY DJ Controller', 'content/dj.html', 900, 700],
 	['Crazy Records Label','https://www.crazyrec.de', 1200, 700],
 	['Impressum und Datenschutz',''],
 	['Impressum', 'content/impressum.html'],
