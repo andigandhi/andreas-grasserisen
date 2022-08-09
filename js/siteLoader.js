@@ -21,6 +21,7 @@ var siteLinks = [
 var icons = [
 	['Studium', 'content/studium.html'],
 	['Labor', 'content/labor.html'],
+	['Paint', 'content/paint/paint.html'],
 ]
 
 
